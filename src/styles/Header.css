@@ -1,0 +1,51 @@
+/* Main header layout */
+.ant-layout-header {
+    background-color: #001529;
+    padding: 0 20px;
+    height: 64px;
+    line-height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Header content on the right when logged in */
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* Adds space between the buttons */
+}
+
+/* Button styling in header */
+.header-btn {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+}
+
+.header-btn:hover {
+    color: #1890ff;
+}
+
+/* Logout button styling */
+.logout-btn {
+    background-color: #ff4d4f;
+    border-color: #ff4d4f;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+}
